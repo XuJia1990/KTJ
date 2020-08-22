@@ -1,0 +1,37 @@
+{
+    "Menus": [{
+        "menuName" : "タピオカ鍋",
+        "menuContent" : [{
+            "menuImage": "image-1",
+            "menuSetDericripe": "set1"
+        },
+        {
+        "menuImage": "image-2",
+        "menuSetDericripe": "set2"
+            }]
+    },
+    {
+        "menuName" : "タピオカ",
+        "menuContent" : [{
+            "menuImage": "image-3",
+            "menuSetDericripe": "set3"
+        },
+        {
+        "menuImage": "image-4",
+        "menuSetDericripe": "set4"
+            }]
+    },
+    {
+        "menuName" : "食べ物",
+        "menuContent" : [{
+            "menuImage": "image-5",
+            "menuSetDericripe": "set5"
+        },
+        {
+        "menuImage": "image-6",
+        "menuSetDericripe": "set6"
+            }]
+    }
+    
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "shops": [{
+            "shopId": "001",
+            "shopName": "漢亭序",
+            "shopContent": {
+                "shopImage": "image-5",
+                "shopDericripe": "xxxxx"
+            }
+        },
+        {
+            "shopId": "002",
+            "shopName": "dongbeirenjia",
+            "shopContent": {
+                "shopImage": "image-6",
+                "shopDericripe": "xxxxx2"
+            }
+        },
+        {
+            "shopId": "003",
+            "shopName": "dongbeirenjia",
+            "shopContent": {
+                "shopImage": "image-7",
+                "shopDericripe": "xxxxx3"
+            }
+        }
+        
+    ]
+}

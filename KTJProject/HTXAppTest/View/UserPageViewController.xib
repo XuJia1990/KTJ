@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserPageViewController" customModule="HTXAppTest" customModuleProvider="target">
+            <connections>
+                <outlet property="accountIdLable" destination="O58-S0-Bby" id="xNw-hW-ndg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名 ： " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O58-S0-Bby">
+                    <rect key="frame" x="20" y="144" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="oBn-lM-RUd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOH-Go-MVH">
+                    <rect key="frame" x="20" y="204" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="SuZ-t2-kAX"/>
+                        <constraint firstAttribute="width" constant="100" id="Vm5-33-WFF"/>
+                    </constraints>
+                    <state key="normal" title="用户信息修改"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="UserModifyButton:" destination="-1" eventType="touchUpInside" id="LJz-8O-FXI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZQ-lL-0wS">
+                    <rect key="frame" x="20" y="264" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="HIH-9V-MGu"/>
+                        <constraint firstAttribute="height" constant="30" id="IbM-S6-LIU"/>
+                    </constraints>
+                    <state key="normal" title="店铺信息修改"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="ShopModifyButton:" destination="-1" eventType="touchUpInside" id="qNu-86-18M"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WU6-HB-NjL">
+                    <rect key="frame" x="20" y="324" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="iCR-N1-vHn"/>
+                        <constraint firstAttribute="height" constant="30" id="jg3-ze-bPH"/>
+                    </constraints>
+                    <state key="normal" title="退出"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="BackToHomepage:" destination="-1" eventType="touchUpInside" id="ORe-Vq-Fn5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="O58-S0-Bby" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="3GF-F1-4Dq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xZQ-lL-0wS" secondAttribute="trailing" constant="20" id="7dt-97-FvO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BOH-Go-MVH" secondAttribute="trailing" constant="20" id="B5b-JP-1AI"/>
+                <constraint firstItem="xZQ-lL-0wS" firstAttribute="top" secondItem="BOH-Go-MVH" secondAttribute="bottom" constant="30" id="K8C-dE-W6J"/>
+                <constraint firstItem="WU6-HB-NjL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="RSS-KS-Y1h"/>
+                <constraint firstItem="xZQ-lL-0wS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="TQ7-gh-mXb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WU6-HB-NjL" secondAttribute="trailing" constant="20" id="WST-MU-XdK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WU6-HB-NjL" secondAttribute="trailing" constant="20" id="Wwt-tk-CaN"/>
+                <constraint firstItem="BOH-Go-MVH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="kia-HA-n2H"/>
+                <constraint firstItem="WU6-HB-NjL" firstAttribute="top" secondItem="xZQ-lL-0wS" secondAttribute="bottom" constant="30" id="lry-DT-0tY"/>
+                <constraint firstItem="BOH-Go-MVH" firstAttribute="top" secondItem="O58-S0-Bby" secondAttribute="bottom" constant="30" id="pAF-Bg-fO6"/>
+                <constraint firstItem="BOH-Go-MVH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="pqE-6L-UcE"/>
+                <constraint firstItem="WU6-HB-NjL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="qI9-nU-J8Q"/>
+                <constraint firstItem="xZQ-lL-0wS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="sLe-1y-TBC"/>
+                <constraint firstItem="BOH-Go-MVH" firstAttribute="top" secondItem="O58-S0-Bby" secondAttribute="bottom" constant="30" id="vLg-71-HTY"/>
+                <constraint firstItem="WU6-HB-NjL" firstAttribute="top" secondItem="xZQ-lL-0wS" secondAttribute="bottom" constant="30" id="wac-mP-Lem"/>
+                <constraint firstItem="xZQ-lL-0wS" firstAttribute="top" secondItem="BOH-Go-MVH" secondAttribute="bottom" constant="30" id="yL4-sQ-uN6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="O58-S0-Bby" secondAttribute="trailing" constant="20" id="yjS-9b-onY"/>
+                <constraint firstItem="O58-S0-Bby" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="zAn-Rw-8bs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="108"/>
+        </view>
+    </objects>
+</document>
