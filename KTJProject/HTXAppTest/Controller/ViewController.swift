@@ -20,10 +20,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "登录"
         
-        let label = UILabel()
-        label.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
-        label.text = "1234"
-        view.addSubview(label)
+        let label1 = UILabel()
+        label1.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        label1.text = "1234"
+        view.addSubview(label1)
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
         button.addTarget(self, action: #selector(loginButton(_:)), for: .touchUpInside)
