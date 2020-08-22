@@ -21,41 +21,6 @@ class ViewController: UIViewController {
         self.title = "登录"
         
         
-        let label2 = UILabel()
-        label2.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
-        label2.text = "1234"
-        
-        let label3 = UILabel()
-        label3.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
-        label3.text = "1234"
-        view.addSubview(label3)
-        
-        let labelInn = UILabel()
-        labelInn.frame = CGRect(x: 0, y: 30, width: 200, height: 60)
-        labelInn.text = "inn"
-        view.addSubview(labelInn)
-        
-        
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
-        button.addTarget(self, action: #selector(loginButton(_:)), for: .touchUpInside)
-        view.addSubview(button)
-        
-        let button2 = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
-        view.addSubview(button2)
-        
-        //zhuijia
-        let labelTwo = UILabel()
-        labelTwo.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
-        labelTwo.text = "1234"
-        view.addSubview(labelTwo)
-        
-        //zhuijia!!!!
-        let textFiled = UITextField()
-        textFiled.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
-        textFiled.text = "1234"
-        view.addSubview(textFiled)
-        
-        
         //textFiled入力框添加编辑时删除记号
         self.accountIDTextFiled.clearButtonMode = .whileEditing
         self.passwordTextFiled.clearButtonMode = .whileEditing
