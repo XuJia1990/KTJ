@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "登录"
         
+        let label = UILabel()
+        label.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        label.text = "1234"
+        view.addSubview(label)
+        
         //textFiled入力框添加编辑时删除记号
         self.accountIDTextFiled.clearButtonMode = .whileEditing
         self.passwordTextFiled.clearButtonMode = .whileEditing
