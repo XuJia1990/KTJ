@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         label.text = "1234"
         view.addSubview(label)
         
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
+        view.addSubview(button)
+        
         //textFiled入力框添加编辑时删除记号
         self.accountIDTextFiled.clearButtonMode = .whileEditing
         self.passwordTextFiled.clearButtonMode = .whileEditing
