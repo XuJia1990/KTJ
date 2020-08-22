@@ -26,8 +26,8 @@ class ViewController: UIViewController {
         view.addSubview(label1)
         
         let labelInn = UILabel()
-        label.frame = CGRect(x: 0, y: 30, width: 200, height: 60)
-        label.text = "inn"
+        labelInn.frame = CGRect(x: 0, y: 30, width: 200, height: 60)
+        labelInn.text = "inn"
         view.addSubview(labelInn)
         
         
