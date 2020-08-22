@@ -25,9 +25,28 @@ class ViewController: UIViewController {
         label1.text = "1234"
         view.addSubview(label1)
         
+        let labelInn = UILabel()
+        label.frame = CGRect(x: 0, y: 30, width: 200, height: 60)
+        label.text = "inn"
+        view.addSubview(labelInn)
+        
+        
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
         button.addTarget(self, action: #selector(loginButton(_:)), for: .touchUpInside)
         view.addSubview(button)
+        
+        //zhuijia
+        let labelTwo = UILabel()
+        labelTwo.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        labelTwo.text = "1234"
+        view.addSubview(labelTwo)
+        
+        //zhuijia!!!!
+        let textFiled = UITextField()
+        textFiled.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        textFiled.text = "1234"
+        view.addSubview(textFiled)
+        
         
         //textFiled入力框添加编辑时删除记号
         self.accountIDTextFiled.clearButtonMode = .whileEditing
