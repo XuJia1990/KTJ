@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         view.addSubview(label)
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
+        button.addTarget(self, action: #selector(loginButton(_:)), for: .touchUpInside)
         view.addSubview(button)
         
         //textFiled入力框添加编辑时删除记号
