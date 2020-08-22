@@ -38,8 +38,6 @@ class ViewController: UIViewController {
         //textFiled入力框添加编辑时删除记号
         self.accountIDTextFiled.clearButtonMode = .whileEditing
         self.passwordTextFiled.clearButtonMode = .whileEditing
-        
-        
     }
     
     //登录按钮事件
