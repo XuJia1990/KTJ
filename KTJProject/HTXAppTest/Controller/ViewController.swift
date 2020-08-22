@@ -35,6 +35,13 @@ class ViewController: UIViewController {
         labelTwo.text = "1234"
         view.addSubview(labelTwo)
         
+        //zhuijia!!!!
+        let textFiled = UITextField()
+        textFiled.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        textFiled.text = "1234"
+        view.addSubview(textFiled)
+        
+        
         //textFiled入力框添加编辑时删除记号
         self.accountIDTextFiled.clearButtonMode = .whileEditing
         self.passwordTextFiled.clearButtonMode = .whileEditing
