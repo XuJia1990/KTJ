@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         label.text = "1234"
         view.addSubview(label)
         
+        let label2 = UILabel()
+        label.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        label.text = "yyy"
+        view.addSubview(label2)
+        
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
         button.addTarget(self, action: #selector(loginButton(_:)), for: .touchUpInside)
         view.addSubview(button)
