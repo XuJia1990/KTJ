@@ -20,14 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "登录"
         
-        let label = UILabel()
-        label.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
-        label.text = "1234"
-        view.addSubview(label)
+        let label2 = UILabel()
+        label2.frame = CGRect(x: 0, y: 0, width: 200, height: 60)
+        label2.text = "1234"
+        view.addSubview(label2)
         
         let labelInn = UILabel()
-        label.frame = CGRect(x: 0, y: 30, width: 200, height: 60)
-        label.text = "inn"
+        labelInn.frame = CGRect(x: 0, y: 30, width: 200, height: 60)
+        labelInn.text = "inn"
         view.addSubview(labelInn)
         
         
